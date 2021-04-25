@@ -19,10 +19,9 @@ const ContactForm = () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', name, email, message }),
-    })
-      .then((response) => {
-        console.log(response);
-        if (response.status == 200) {
+    }).then((response) => {
+      console.log(response);
+      if (response.status == 200) {
         setShowSuccess(true);
         setMessage('');
         setName('');
@@ -32,7 +31,7 @@ const ContactForm = () => {
         setError(response.body.error);
         setShowSuccess(false);
       }
-
+    });
     e.preventDefault();
   };
 
