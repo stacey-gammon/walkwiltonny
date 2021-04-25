@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.form-submitted {
+  background-color: rgba(104, 104, 104, 0.5);
+}
+
 .photo-hover-text {
   position: absolute;
   top: 50%;

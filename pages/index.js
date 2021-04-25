@@ -5,13 +5,6 @@ import ContactForm from './components/contact_form';
 
 export default function Home() {
   const CoverPhoto = () => {
-    var background = { maxWidth: '1400px' };
-    var textStyle = {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-    };
-
     return (
       <div style={{ width: 'auto', position: 'relative', textAlign: 'center', minHeight: '250px' }}>
         <Image fluid responsive style={{ minHeight: '250px' }} src="./lake.jpg"></Image>
