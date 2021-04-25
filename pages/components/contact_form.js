@@ -17,7 +17,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} name="contact">
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control
@@ -37,6 +37,7 @@ const ContactForm = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
       </Form.Group>
+      <input type="hidden" name="form-name" value="contact" />
       <Button variant="primary" type="submit">
         Send
       </Button>
