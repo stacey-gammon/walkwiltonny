@@ -81,7 +81,7 @@ export default function Home() {
 
         <div id="Contact">
           <Jumbotron>
-            <h1>Got questions? Want to get involved? Shoot us an email!</h1>
+            <h2>Got questions? Want to get involved? Shoot us an email!</h2>
             <ContactForm />
           </Jumbotron>
         </div>

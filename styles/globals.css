@@ -3,13 +3,15 @@ html {
 }
 
 h1 {
-  font-size: 5.9vw !important;
+  font-size: min(max(12px, 4vw), 50px) !important;
 }
+
 h2 {
-  font-size: 3vh !important;
+  font-size: min(max(12px, 4vw), 30px) !important;
 }
+
 p {
-  font-size: 3vmin !important;
+  font-size: min(max(10px, 3vw), 16px) !important;
 }
 
 body {
