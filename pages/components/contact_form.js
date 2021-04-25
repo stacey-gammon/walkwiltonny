@@ -36,46 +36,68 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} name="contact">
-      {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
-      {error ? <Alert variant="error">{error}</Alert> : null}
-      <Form.Group controlId="formBasicEmail">
-        <Form.Label>Name</Form.Label>
-        <Form.Control
-          type="name"
-          name="name"
-          placeholder="Enter name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </Form.Group>
-      <Form.Group controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control
-          type="email"
-          name="email"
-          placeholder="Enter email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
-      </Form.Group>
-      <Form.Group controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Message</Form.Label>
-        <Form.Control
-          as="textarea"
-          rows={3}
-          value={message}
-          name="message"
-          onChange={(e) => setMessage(e.target.value)}
-        />
-      </Form.Group>
+    <form name="contact" method="post">
       <input type="hidden" name="form-name" value="contact" />
-      <Button variant="primary" type="submit">
-        Send
-      </Button>
+      <p>
+        <label>
+          Your Name: <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Your Email: <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Message: <textarea name="message"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
   );
+  //     <form onSubmit={handleSubmit} name="contact">
+  //       {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
+  //       {error ? <Alert variant="error">{error}</Alert> : null}
+  //       <Form.Group controlId="formBasicEmail">
+  //         <Form.Label>Name</Form.Label>
+  //         <Form.Control
+  //           type="name"
+  //           name="name"
+  //           placeholder="Enter name"
+  //           value={name}
+  //           onChange={(e) => setName(e.target.value)}
+  //         />
+  //       </Form.Group>
+  //       <Form.Group controlId="formBasicEmail">
+  //         <Form.Label>Email address</Form.Label>
+  //         <Form.Control
+  //           type="email"
+  //           name="email"
+  //           placeholder="Enter email"
+  //           value={email}
+  //           onChange={(e) => setEmail(e.target.value)}
+  //         />
+  //         <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
+  //       </Form.Group>
+  //       <Form.Group controlId="exampleForm.ControlTextarea1">
+  //         <Form.Label>Message</Form.Label>
+  //         <Form.Control
+  //           as="textarea"
+  //           rows={3}
+  //           value={message}
+  //           name="message"
+  //           onChange={(e) => setMessage(e.target.value)}
+  //         />
+  //       </Form.Group>
+  //       <input type="hidden" name="form-name" value="contact" />
+  //       <Button variant="primary" type="submit">
+  //         Send
+  //       </Button>
+  //     </form>
+  //   );
 };
 
 export default ContactForm;
