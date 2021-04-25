@@ -3,35 +3,49 @@ import styles from '../styles/Home.module.css';
 import { Nav, Navbar, Image, Carousel, Jumbotron, Button } from 'react-bootstrap';
 
 export default function Home() {
-  var background = { maxHeight: '600px' };
-  var textStyle = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
+  const CoverPhoto = () => {
+    var background = { maxWidth: '1400px' };
+    var textStyle = {
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+    };
+
+    return (
+      <div style={{ width: 'auto', position: 'relative', textAlign: 'center' }}>
+        <Image fluid responsive src="./lake.jpg"></Image>
+        <div className="photo-hover-text">
+          <h1>Sign the petition to get more sidewalks in Wilton, New York.</h1>
+          <p>We would like sidewalks, because they are safe, and fun. yay</p>
+        </div>
+      </div>
+    );
   };
 
-  const CoverPhoto = () => (
-    <Carousel>
-      <Carousel.Item>
-        <img className="d-block w-100" src="./lake.jpg" alt="First slide" />
-        <Carousel.Caption>
-          <h3>Sidewalks to safely see Loughberry Lake!</h3>
-          <p>We like sidewalks</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://source.unsplash.com/Pw7i-YVg5uM/1600x900"
-          alt="More sidewalks"
-        />
+  const Carosel = () => (
+    <div style={{ maxWidth: '900px' }}>
+      <Carousel>
+        <Carousel.Item>
+          <img className="carousel-img-item" src="./lake.jpg" alt="First slide" />
+          <Carousel.Caption>
+            <h3>Sidewalks to safely see Loughberry Lake!</h3>
+            <p>We like sidewalks</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-img-item"
+            src="https://source.unsplash.com/Pw7i-YVg5uM/1600x900"
+            alt="More sidewalks"
+          />
 
-        <Carousel.Caption>
-          <h3>Side walks are so cool</h3>
-          <p>Everyone is just so happy with sidewalks</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+          <Carousel.Caption>
+            <h3>Side walks are so cool</h3>
+            <p>Everyone is just so happy with sidewalks</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 
   return (
