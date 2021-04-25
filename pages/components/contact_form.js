@@ -1,27 +1,59 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Alert } from 'react-bootstrap';
+
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+};
 
 const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [name, setName] = useState('');
+  const [error, setError] = useState('');
+  const [showSuccess, setShowSuccess] = useState(false);
+
   const handleSubmit = (e) => {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...this.state }),
+      body: encode({ 'form-name': 'contact', name, email, message }),
     })
-      .then(() => alert('Success!'))
-      .catch((error) => alert(error));
+      .then(() => {
+        setShowSuccess(true);
+        setMessage('');
+        setName('');
+        setEmail('');
+        setError('');
+      })
+      .catch((error) => {
+        setError(error);
+        setShowSuccess(false);
+      });
 
     e.preventDefault();
   };
 
   return (
     <Form onSubmit={handleSubmit} name="contact">
+      {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
+      {error ? <Alert variant="error">{error}</Alert> : null}
+      <Form.Group controlId="formBasicEmail">
+        <Form.Label>Name</Form.Label>
+        <Form.Control
+          type="name"
+          name="name"
+          placeholder="Enter name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+      </Form.Group>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control
           type="email"
+          name="email"
           placeholder="Enter email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -34,6 +66,7 @@ const ContactForm = () => {
           as="textarea"
           rows={3}
           value={message}
+          name="message"
           onChange={(e) => setMessage(e.target.value)}
         />
       </Form.Group>
