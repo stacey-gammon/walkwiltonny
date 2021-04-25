@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Nav, Navbar, Image, Carousel, Jumbotron, Button } from 'react-bootstrap';
+import { Nav, Navbar, Form, Image, Carousel, Jumbotron, Button } from 'react-bootstrap';
 
 export default function Home() {
   const CoverPhoto = () => {
@@ -80,11 +80,24 @@ export default function Home() {
 
         <div id="Contact">
           <Jumbotron>
-            <h1>Creating a more walkable experience</h1>
-            <p>What should we do to make this possible?</p>
-            <p>
-              <Button variant="primary">Learn more</Button>
-            </p>
+            <h1>Got questions? Want to get involved? Shoot us an email!</h1>
+            <Form data-netlify="true" netlify>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Text className="text-muted">
+                  We'll never share your email with anyone else.
+                </Form.Text>
+              </Form.Group>
+
+              <Form.Group controlId="exampleForm.ControlTextarea1">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={3} />
+              </Form.Group>
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
+            </Form>
           </Jumbotron>
         </div>
 
