@@ -20,23 +20,24 @@ const ContactForm = () => {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', name, email, message }),
     })
-      .then(() => {
+      .then((response) => {
+        console.log(response);
+        if (response.status == 200) {
         setShowSuccess(true);
         setMessage('');
         setName('');
         setEmail('');
         setError('');
-      })
-      .catch((error) => {
-        setError(error);
+      } else {
+        setError(response.body.error);
         setShowSuccess(false);
-      });
+      }
 
     e.preventDefault();
   };
 
   return (
-    <Form onSubmit={handleSubmit} name="contact">
+    <form onSubmit={handleSubmit} name="contact">
       {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
       {error ? <Alert variant="error">{error}</Alert> : null}
       <Form.Group controlId="formBasicEmail">
@@ -74,7 +75,7 @@ const ContactForm = () => {
       <Button variant="primary" type="submit">
         Send
       </Button>
-    </Form>
+    </form>
   );
 };
 
