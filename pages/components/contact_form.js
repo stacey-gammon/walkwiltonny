@@ -36,22 +36,20 @@ const ContactForm = () => {
   };
 
   return (
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" method="POST">
       <input type="hidden" name="form-name" value="contact" />
       <p>
-        <label>
-          Your Name: <input type="text" name="name" />
-        </label>
+        <input type="text" name="firstname" id="firstname" />
+        <label htmlFor="yourname">Your Name:</label> <br />
+        <input type="text" name="name" id="yourname" />
       </p>
       <p>
-        <label>
-          Your Email: <input type="email" name="email" />
-        </label>
+        <label htmlFor="youremail">Your Email:</label> <br />
+        <input type="email" name="email" id="youremail" />
       </p>
       <p>
-        <label>
-          Message: <textarea name="message"></textarea>
-        </label>
+        <label htmlFor="yourmessage">Message:</label> <br />
+        <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
         <button type="submit">Send</button>
