@@ -3,7 +3,13 @@ html {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 5.9vw !important;
+}
+h2 {
+  font-size: 3vh !important;
+}
+p {
+  font-size: 3vmin !important;
 }
 
 body {
