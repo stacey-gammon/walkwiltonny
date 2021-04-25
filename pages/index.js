@@ -12,8 +12,8 @@ export default function Home() {
     };
 
     return (
-      <div style={{ width: 'auto', position: 'relative', textAlign: 'center' }}>
-        <Image fluid responsive src="./lake.jpg"></Image>
+      <div style={{ width: 'auto', position: 'relative', textAlign: 'center', minHeight: '250px' }}>
+        <Image fluid responsive style={{ minHeight: '250px' }} src="./lake.jpg"></Image>
         <div className="photo-hover-text">
           <h1>Sign the petition to get more sidewalks in Wilton, New York.</h1>
           <p>We would like sidewalks, because they are safe, and fun. yay</p>
@@ -47,6 +47,18 @@ export default function Home() {
       </Carousel>
     </div>
   );
+
+  handleSubmit = (e) => {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...this.state }),
+    })
+      .then(() => alert('Success!'))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
 
   return (
     <div className={styles.container}>
