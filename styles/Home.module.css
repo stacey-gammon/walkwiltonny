@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+.signPetitionButton {
+  margin-top: 20px;
+  padding: 5px;
+}
+
 .footer img {
   margin-left: 0.5rem;
 }
