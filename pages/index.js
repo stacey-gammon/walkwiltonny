@@ -69,7 +69,7 @@ export default function Home() {
             <Row className="InfoSectionRow">
               <Col className="InfoSectionCallout" style={{ backgroundColor: '#687980' }}>
                 <div className="InfoSectionCalloutText">
-                  <p>94 miles of sidewalks</p>
+                  <h3>94 miles of sidewalks</h3>
                 </div>
               </Col>
               <Col className="InfoSectionCallout">
@@ -77,7 +77,13 @@ export default function Home() {
                   <p>
                     Saratoga Springs has one of America’s best Downtowns,{' '}
                     <b>94 miles of sidewalks</b> that we can connect to. Saratoga has been
-                    designated a Bronze-Level Walk Friendly Community.
+                    designated a Bronze-Level Walk Friendly Community. Saratoga Springs is planning
+                    to enhance it's sidewalks with the{' '}
+                    <a href="https://www.saratoga-springs.org/2425/Saratoga-Greenbelt-Trail">
+                      Saratoga Greenbelt Trail
+                    </a>
+                    . Sidewalks in Wilton connecting to this trail system would exponentially
+                    increase the walkability of our town.
                   </p>
                 </div>
               </Col>
@@ -86,7 +92,7 @@ export default function Home() {
             <Row className="InfoSectionRow">
               <Col className="InfoSectionCallout" style={{ backgroundColor: '#f3bda1' }}>
                 <div className="InfoSectionCalloutText">
-                  <p>54% increase in property value</p>
+                  <h3>54% increase in property value</h3>
                 </div>
               </Col>
               <Col className="InfoSectionCallout">
@@ -96,6 +102,50 @@ export default function Home() {
                     <b>valued 54 percent higher</b> than properties with a Walk Score of 20 and had
                     an increase in net operating income of 42 percent for more walkable properties.
                   </p>
+                  <p>
+                    When people are looking to buy a house in Wilton, Saratoga County, they may ask
+                    themselves:
+                  </p>
+                  <p>
+                    <i>
+                      Can I walk from my house to{' '}
+                      <a href="https://townofwilton.com/departments/gavin-park/">Gavin Park</a>?
+                    </i>
+                  </p>
+                  <p>
+                    <i>
+                      Can I walk to{' '}
+                      <a href="https://www.saratogaschools.org/MapleAvenue.cfm?subpage=1377009">
+                        Maple Ave Middle school
+                      </a>
+                      ?
+                    </i>
+                  </p>
+                  <p>
+                    <i>
+                      Can I walk to{' '}
+                      <a href="https://www.saratogaschools.org/DorothyNolan.cfm">
+                        Dorothy Nolan Elementary school
+                      </a>
+                      ?
+                    </i>
+                  </p>
+                  <p>
+                    <i>
+                      Can I walk from my house to{' '}
+                      <a href="https://olde-saratoga-miniature-golf.business.site">mini golf</a>?
+                    </i>
+                  </p>
+                  <p>
+                    <i>
+                      Is the local <a href="https://www.dairyhaus.com/">Dairy Haus</a> walkable?
+                    </i>
+                  </p>
+
+                  <p>
+                    Being able to answer yes to all these questions will increase all our property
+                    values, <i>and</i> improve the accessibility of our area.
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -103,7 +153,7 @@ export default function Home() {
             <Row className="InfoSectionRow">
               <Col className="InfoSectionCallout" style={{ backgroundColor: '#fefecc' }}>
                 <div className="InfoSectionCalloutText">
-                  <p>local shops and restaurants</p>
+                  <h3>Local shops and restaurants</h3>
                 </div>
               </Col>
               <Col className="InfoSectionCallout">
@@ -229,7 +279,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://www.aarp.org/livable-communities">
-                  AARP Livable Communities newsletter{' '}
+                  CARP Livable Communities newsletter{' '}
                 </a>
               </li>
             </ul>
