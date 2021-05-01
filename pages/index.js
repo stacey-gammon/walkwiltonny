@@ -87,6 +87,14 @@ export default function Home() {
                     . Sidewalks in Wilton connecting to this trail system would exponentially
                     increase the walkability of our town.
                   </p>
+                  <p>
+                    Wilton, New York has a{' '}
+                    <a href="https://www.walkscore.com/score/wilton-new-york">
+                      WalkScore of only 8
+                    </a>
+                    , while Saratoga Springs has a{' '}
+                    <a href="https://www.walkscore.com/NY/Saratoga_Springs">walk score of 42.</a>
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -282,6 +290,29 @@ export default function Home() {
               <li>
                 <a href="https://www.aarp.org/livable-communities">
                   CARP Livable Communities newsletter{' '}
+                </a>
+              </li>
+              <li>
+                <a href="http://www.walkscore.com">Walk Score</a> is an online logarithmic ranking
+                system that determines the basic walkability of a residential or commercial
+                property. Walk Score uses neighborhood factors such as distance to shops and schools
+                to create a number between 0 and 100 that measures the walkability of any address.
+              </li>
+              <li>
+                Pivo, G. and Fisher, J.D. (2010){' '}
+                <a href="http://www.u.arizona.edu/~gpivo/Walkability%20Paper%208_4%20draft.pdf">
+                  The Walkability Premium in Commercial Real Estate Investments.{' '}
+                </a>
+                . University of Arizona and Benecki Center for Real Estate Studies, Indiana
+                University.
+              </li>
+              <li>
+                Cortright, J. Impresa, Inc., CEOs for Cities. (August 2009){' '}
+                <a
+                  href="
+                https://community-wealth.org/content/walking-walk-how-walkability-raises-home-values-us-cities"
+                >
+                  Walking the Walk: How Walkability Raises Home Values in U.S. Cities.
                 </a>
               </li>
             </ul>
