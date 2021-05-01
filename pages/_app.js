@@ -3,14 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-import * as ga from './ga';
+import { pageview } from './api/ga';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      ga.pageview(url);
+      pageview(url);
     };
     //When the component is mounted, subscribe to router changes
     //and log those page views
