@@ -176,9 +176,9 @@ export default function Home() {
                       Battle Lake, Minnesota (pop. 735) downsized a highway running through town.
                       Highway 78 — the town's Main Street — local citizens persuaded the agency to
                       do a road diet, narrowing the roadway from four lanes to three, and widening
-                      the sidewalk through downtown. Twenty-one new businesses opened in town,
-                      including a hotel and bakery, since the project was completed in 2014, reports
-                      MnDOT.
+                      the sidewalk through downtown. <b>Twenty-one new businesses opened in town</b>
+                      , including a hotel and bakery, since the project was completed in 2014,
+                      reports MnDOT.
                     </i>
                   </p>
                 </div>
