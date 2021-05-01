@@ -4,10 +4,9 @@ import { Nav, Navbar, Row, Image, Container, Col, Jumbotron, Button } from 'reac
 import ContactForm from './components/contact_form';
 
 export default function Home() {
-  /* <Image fluid responsive style={{ minHeight: '450px' }} src="./lake.jpg"></Image> */
   const CoverPhoto = () => {
     return (
-      <div style={{ width: 'auto', textAlign: 'center', minHeight: '450px' }}>
+      <div style={{ width: 'auto', textAlign: 'center', height: '100%' }}>
         <div className="photo-hover-text">
           <h1 className="websiteTitle">Walk Wilton Project</h1>
           <p>
@@ -281,22 +280,35 @@ export default function Home() {
         <div>
           <Jumbotron style={{ paddingTop: '0px' }}>
             <h1 className="sectionTitle">Resources</h1>
-            <ul>
+            <ol>
               <li>
-                <a href="https://www.aarp.org/livable-communities/archives/info-2014/rural-livability.html">
-                  AARP Rural livability
+                <a id="ref1" />
+                National Association of Realtors. (November 2013){' '}
+                <a
+                  href="
+                https://www.nar.realtor/reports/nar-community-and-transportation-preference-surveys"
+                >
+                  National Community Preference Survey
                 </a>
               </li>
               <li>
-                <a href="https://www.aarp.org/livable-communities">
-                  CARP Livable Communities newsletter{' '}
-                </a>
+                <a id="ref2" />
+                Sallis J., et al.{' '}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/19460656/">
+                  “Neighborhood Environments and Physical Activity among Adults in 11 countries.”
+                </a>{' '}
+                American Journal of Preventive Medicine, Vol. 36, No.2
               </li>
               <li>
-                <a href="http://www.walkscore.com">Walk Score</a> is an online logarithmic ranking
-                system that determines the basic walkability of a residential or commercial
-                property. Walk Score uses neighborhood factors such as distance to shops and schools
-                to create a number between 0 and 100 that measures the walkability of any address.
+                <a id="ref3" />
+                National Association of City Transportation Officials (NACTO). (October 2012){' '}
+                <a
+                  href="
+                http://www.nyc.gov/html/dot/downloads/pdf/2012-nacto-urban-street-design-guide.pdf"
+                >
+                  Urban Street Design Guide
+                </a>{' '}
+                pp 24-25.
               </li>
               <li>
                 Pivo, G. and Fisher, J.D. (2010){' '}
@@ -315,7 +327,36 @@ export default function Home() {
                   Walking the Walk: How Walkability Raises Home Values in U.S. Cities.
                 </a>
               </li>
-            </ul>
+              <li>
+                U.S. PIRG Educational Fund. (December 2013) Transportation in Transition:{' '}
+                <a
+                  href="https://www.parking-mobility.org/2020/07/01/mrc-transportation-in-transition-a-look-at-changing-travel-patterns-in-americas-biggest-cities/
+             "
+                >
+                  A Look at Changing Travel Patterns in America’s Biggest Cities
+                </a>
+              </li>
+              <li>
+                Surface Transportation Policy Project, Belden Russonello & Stewart. (April 2003)
+                Americans’ Attitudes Toward Walking and Creating Better Walking Communitie
+              </li>
+              <li>
+                <a href="https://www.aarp.org/livable-communities/archives/info-2014/rural-livability.html">
+                  AARP Rural livability
+                </a>
+              </li>
+              <li>
+                <a href="https://www.aarp.org/livable-communities">
+                  CARP Livable Communities newsletter{' '}
+                </a>
+              </li>
+              <li>
+                <a href="http://www.walkscore.com">Walk Score</a> is an online logarithmic ranking
+                system that determines the basic walkability of a residential or commercial
+                property. Walk Score uses neighborhood factors such as distance to shops and schools
+                to create a number between 0 and 100 that measures the walkability of any address.
+              </li>
+            </ol>
           </Jumbotron>
         </div>
       </main>
