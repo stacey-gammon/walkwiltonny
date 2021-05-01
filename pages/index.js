@@ -325,20 +325,43 @@ export default function Home() {
                 pp 24-25.
               </li>
               <li>
+                <a id="ref4" />
+                <a href="http://www.walkscore.com">Walk Score</a> is an online logarithmic ranking
+                system that determines the basic walkability of a residential or commercial
+                property. Walk Score uses neighborhood factors such as distance to shops and schools
+                to create a number between 0 and 100 that measures the walkability of any address.
+              </li>
+              <li>
+                <a id="ref5" />
                 Pivo, G. and Fisher, J.D. (2010){' '}
                 <a href="http://www.u.arizona.edu/~gpivo/Walkability%20Paper%208_4%20draft.pdf">
                   The Walkability Premium in Commercial Real Estate Investments.{' '}
-                </a>
-                . University of Arizona and Benecki Center for Real Estate Studies, Indiana
+                </a>{' '}
+                University of Arizona and Benecki Center for Real Estate Studies, Indiana
                 University.
               </li>
               <li>
+                <a id="ref6" />
                 Cortright, J. Impresa, Inc., CEOs for Cities. (August 2009){' '}
                 <a
                   href="
                 https://community-wealth.org/content/walking-walk-how-walkability-raises-home-values-us-cities"
                 >
                   Walking the Walk: How Walkability Raises Home Values in U.S. Cities.
+                </a>
+              </li>
+              <li>
+                <a id="ref7" /> Centers for Disease Control and Prevention. (August 2012) Vital
+                Signs.{' '}
+                <a href="https://www.cdc.gov/vitalsigns/walking/">
+                  More People Walk to Better Health
+                </a>
+              </li>
+              <li>
+                <a id="ref8"></a>
+                National Center for Safe Routes to School. (October 2013){' '}
+                <a href="https://www.pedbikeinfo.org/pdf/SRTSlocal_Trends2007-2012.pdf">
+                  Trends in Walking and Bicycling to School from 2007 – 2012.
                 </a>
               </li>
               <li>
@@ -363,12 +386,6 @@ export default function Home() {
                 <a href="https://www.aarp.org/livable-communities">
                   CARP Livable Communities newsletter{' '}
                 </a>
-              </li>
-              <li>
-                <a href="http://www.walkscore.com">Walk Score</a> is an online logarithmic ranking
-                system that determines the basic walkability of a residential or commercial
-                property. Walk Score uses neighborhood factors such as distance to shops and schools
-                to create a number between 0 and 100 that measures the walkability of any address.
               </li>
             </ol>
           </Jumbotron>
