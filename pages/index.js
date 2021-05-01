@@ -90,7 +90,7 @@ export default function Home() {
                   <p>
                     Wilton, New York has a{' '}
                     <a href="https://www.walkscore.com/score/wilton-new-york">
-                      WalkScore of only 8
+                      walk score of only 8
                     </a>
                     , while Saratoga Springs has a{' '}
                     <a href="https://www.walkscore.com/NY/Saratoga_Springs">walk score of 42.</a>
