@@ -7,7 +7,7 @@ export default function Home() {
   /* <Image fluid responsive style={{ minHeight: '450px' }} src="./lake.jpg"></Image> */
   const CoverPhoto = () => {
     return (
-      <div style={{ width: 'auto', position: 'relative', textAlign: 'center', minHeight: '450px' }}>
+      <div style={{ width: 'auto', textAlign: 'center', minHeight: '450px' }}>
         <div className="photo-hover-text">
           <h1 className="websiteTitle">Walk Wilton Project</h1>
           <p>
@@ -66,7 +66,10 @@ export default function Home() {
           <Jumbotron style={{ paddingTop: '0px' }}>
             <h1 className="sectionTitle">Why</h1>
             <Row className="InfoSectionRow">
-              <Col className="InfoSectionCallout" style={{ backgroundColor: '#687980' }}>
+              <Col
+                className="InfoSectionCallout"
+                style={{ backgroundColor: '#687980', color: 'white' }}
+              >
                 <div className="InfoSectionCalloutText">
                   <h3>94 miles of sidewalks</h3>
                 </div>
