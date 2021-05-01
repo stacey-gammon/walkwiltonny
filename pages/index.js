@@ -21,7 +21,16 @@ export default function Home() {
             access, they enhance connectivity and promote walking. As public spaces, sidewalks are
             the front steps to a community, activating streets both socially and economically.
           </p>
-          <Button variant="warning" className="signPetitionButton" href="http://chng.it/YsfHcWjYvH">
+          <Button
+            variant="warning"
+            className="signPetitionButton"
+            href="http://chng.it/YsfHcWjYvH"
+            onClick={() =>
+              ga.event({
+                action: 'sign_petition',
+              })
+            }
+          >
             Sign the petition
           </Button>
         </div>
@@ -264,6 +273,11 @@ export default function Home() {
             <Button
               variant="warning"
               className="signPetitionButton"
+              onClick={() =>
+                ga.event({
+                  action: 'sign_petition',
+                })
+              }
               href="http://chng.it/YsfHcWjYvH"
             >
               Sign the petition
