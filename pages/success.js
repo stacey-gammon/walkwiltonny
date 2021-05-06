@@ -1,12 +1,16 @@
-import { Nav, Navbar, Form, Image, Jumbotron, Button } from 'react-bootstrap';
+import { useEffect } from 'react';
+import { Jumbotron, Button } from 'react-bootstrap';
 import Link from 'next/link';
 
 import ga from './api/ga';
 
 export default function Success() {
-  ga.event({
-    action: 'contact_form',
+  useEffect(() => {
+    ga.event({
+      action: 'contact_form',
+    });
   });
+
   return (
     <Jumbotron>
       <h1>Form successfully submitted</h1>
