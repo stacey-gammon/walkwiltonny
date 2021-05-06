@@ -2,18 +2,22 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { Nav, Navbar, Row, Image, Container, Col, Jumbotron, Button } from 'react-bootstrap';
 import ContactForm from './components/contact_form';
+import Callout from './components/callout';
 
 export default function Home() {
   const CoverPhoto = () => {
     return (
       <div style={{ width: 'auto', textAlign: 'center', height: '100%' }}>
         <div className="photo-hover-text">
-          <h1 className="websiteTitle">Walk Wilton Project</h1>
+          <h1 className="websiteTitle">Walk Wilton New York</h1>
           <p>
             <i>Connecting our community</i>
           </p>
           <h3>
-            <i>This is a proposal to create sidewalks in Wilton, New York</i>
+            <i>
+              This is a proposal to create sidewalks in Wilton, New York,{' '}
+              <b>without raising our taxes!</b>
+            </i>
           </h3>
           <p style={{ backgroundColor: '#687980', padding: '10px' }}>
             {' '}
@@ -52,7 +56,13 @@ export default function Home() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <Nav.Item>
+                <Nav.Link href="#Where">Where</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link href="#Why">Why</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#Why">Key points</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#Contact">Myths</Nav.Link>
@@ -66,46 +76,97 @@ export default function Home() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
         <Jumbotron>
           <CoverPhoto />
         </Jumbotron>
+        <div id="Where">
+          <Jumbotron>
+            <h1 className="sectionTitle">Where</h1>
+            <p>
+              The residents of Wilton are proposing to have sidewalks installed on the following
+              streets: Phase one sidewalks would include Gick/Jones Road, extending from NY-29 to
+              Route 50, Smith Bridge Road, and Maple Ave 9p extending from NY-29 to just past Spring
+              Run. Phase two would include adding sidewalks to Carr Road, Davidson Drive, and
+              Northern Pines Road extending from Maple Ave 9p to Lonesome Pine Trail. The primary
+              focus first being safe neighborhood accessibility to{' '}
+              <b>Gavin Park, Dorothy Nolan Elementary School and Maple Avenue Middle School</b>. In
+              addition, we propose any new construction or building in the town of Wilton will be
+              required to incorporate sidewalks.
+            </p>
+          </Jumbotron>
+        </div>
         <div id="Why">
           <Jumbotron style={{ paddingTop: '0px' }}>
             <h1 className="sectionTitle">Why</h1>
-            <Row className="InfoSectionRow">
-              <Col
-                className="InfoSectionCallout"
-                style={{ backgroundColor: '#687980', color: 'white' }}
-              >
-                <div className="InfoSectionCalloutText">
-                  <h3>94 miles of sidewalks</h3>
-                </div>
-              </Col>
-              <Col className="InfoSectionCallout">
-                <div className="InfoSectionDetailText">
-                  <p>
-                    Saratoga Springs has one of America’s best Downtowns,{' '}
-                    <b>94 miles of sidewalks</b> that we can connect to. Saratoga has been
-                    designated a Bronze-Level Walk Friendly Community. Saratoga Springs is planning
-                    to enhance it's sidewalks with the{' '}
-                    <a href="https://www.saratoga-springs.org/2425/Saratoga-Greenbelt-Trail">
-                      Saratoga Greenbelt Trail
-                    </a>
-                    . Sidewalks in Wilton connecting to this trail system would exponentially
-                    increase the walkability of our town.
-                  </p>
-                  <p>
-                    Wilton, New York has a{' '}
-                    <a href="https://www.walkscore.com/score/wilton-new-york">
-                      walk score of only 8
-                    </a>
-                    , while Saratoga Springs has a{' '}
-                    <a href="https://www.walkscore.com/NY/Saratoga_Springs">walk score of 42.</a>
-                  </p>
-                </div>
-              </Col>
-            </Row>
+
+            <p>
+              {' '}
+              Sidewalks play a vital role in community life. As a way for pedestrian movement and
+              access, they enhance connectivity and promote walking. As public spaces, sidewalks are
+              the front steps to a community, activating streets both socially and economically. It
+              makes little sense that in this neighborhood, sidewalks do not exist.{' '}
+            </p>
+            <p>
+              We as a community would like to make Wilton more inclusive. Sidewalks enable people
+              from all socioeconomic status, and all types of disabilities an opportunity to safe
+              access to alternate transportation, including safe access to bus routes and safe
+              access to our local health care facilities. The ability to link Wilton sidewalks to
+              the 94 miles of Saratoga Springs City sidewalks provides safe access to a multitude of
+              opportunities for everyone including people who are disadvantaged.{' '}
+            </p>
+            <p>
+              Covid 19 virus has taught us a lot. It made us all stop, think and see things in a new
+              light. We as a community want to refocus our energies on what matters most. The virus
+              has forced us to not only stay home more, but spend more time in our own community. We
+              have been given the opportunity to slow down. We are working from home, loving it and
+              not going back to the antiquated life style prepandemic. We go for more walks, ride
+              bikes, play more with our kids, take our kids to school instead of the bus, and
+              explore more than ever before, outside in our own back yards.{' '}
+            </p>
+            <p>
+              In doing this, talk became strong and loud in this community, why can't we walk our
+              kids safely to Gavin Park? Why can't we walk our kids safely to their school (Dorothy
+              Nolan, Maple Ave)? Why can't we walk safely to the post office, the bank, or the local
+              coffee shop? Where do the citizens of Wilton get there sense of community? WHERE ARE
+              THE SIDEWALKS OTHER TOWNS HAVE? Wilton can do and be better!
+            </p>
+            <p>
+              The children of Wilton are home now more than ever before. We hear parents and experts
+              saying they need to get of their electronics, get outside, play, walk to your friends
+              house, walk to the park. Unfortunately, over and over the answer is Jones Road and
+              Maple Avenue are to dangerous to walk or ride on. Parents won't let their kids walk or
+              ride on these roads, it's not safe. Adults don't feel safe to walk or ride on these
+              roads let alone their children. The cars are to fast and to frequent. We can't walk
+              our kids safely to the park. We can't walk them safely to their schools. In 2018 there
+              were 6,283 pedestrians killed in traffic crashes in the United States. On average, a
+              pedestrian was killed every 84 minutes in a traffic crash. That is more than 17 people
+              a day, almost 121 people a week. Pedestrians killed while "walking along the
+              roadway" Many of these tragedies are preventable. Providing walkways separated from
+              the travel lanes could help to prevent up to 88 percent of these "walking along
+              roadway crashes." Why are there no sidewalks in Wilton? It's time for a change.
+            </p>
+            <p>
+              {' '}
+              Everywhere towns across America are recognizing the importance of a walkable
+              community, for safety, for better health, physically and mentally.
+              The U.S. adult obesity rate stands at 42.4 percent, the first time the national rate
+              has passed the 40 percent mark, and further evidence of the country's obesity crisis.
+              The national adult obesity rate has increased by 26 percent since 2008. Statistics
+              show that People who live in neighborhoods with sidewalks are 47 percent more likely
+              to be active at least 39 minutes a day.
+            </p>
+            <p>
+              We need to come together as a community in order to improve our lives. Sidewalks
+              improve safety, equity and inclusivity, communication, and understanding of our
+              neighbors. They give safe access to alternate transportation, increase property
+              values, beautify the neighborhood, promote business, improve health, bring people
+              together and help to create a sense of community.
+            </p>
+          </Jumbotron>
+        </div>
+        <div id="key">
+          <Jumbotron style={{ paddingTop: '0px' }}>
+            <h1 className="sectionTitle">Key points</h1>
 
             <Row className="InfoSectionRow">
               <Col className="InfoSectionCallout" style={{ backgroundColor: '#f3bda1' }}>
@@ -167,7 +228,39 @@ export default function Home() {
                 </div>
               </Col>
             </Row>
-
+            <Row className="InfoSectionRow">
+              <Col
+                className="InfoSectionCallout"
+                style={{ backgroundColor: '#687980', color: 'white' }}
+              >
+                <div className="InfoSectionCalloutText">
+                  <h3>94 miles of sidewalks</h3>
+                </div>
+              </Col>
+              <Col className="InfoSectionCallout">
+                <div className="InfoSectionDetailText">
+                  <p>
+                    Saratoga Springs has one of America’s best Downtowns,{' '}
+                    <b>94 miles of sidewalks</b> that we can connect to. Saratoga has been
+                    designated a Bronze-Level Walk Friendly Community. Saratoga Springs is planning
+                    to enhance it's sidewalks with the{' '}
+                    <a href="https://www.saratoga-springs.org/2425/Saratoga-Greenbelt-Trail">
+                      Saratoga Greenbelt Trail
+                    </a>
+                    . Sidewalks in Wilton connecting to this trail system would exponentially
+                    increase the walkability of our town.
+                  </p>
+                  <p>
+                    Wilton, New York has a{' '}
+                    <a href="https://www.walkscore.com/score/wilton-new-york">
+                      walk score of only 8
+                    </a>
+                    , while Saratoga Springs has a{' '}
+                    <a href="https://www.walkscore.com/NY/Saratoga_Springs">walk score of 42.</a>
+                  </p>
+                </div>
+              </Col>
+            </Row>
             <Row className="InfoSectionRow">
               <Col className="InfoSectionCallout" style={{ backgroundColor: '#fefecc' }}>
                 <div className="InfoSectionCalloutText">
