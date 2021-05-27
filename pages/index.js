@@ -88,10 +88,13 @@ export default function Home() {
               Route 50, Smith Bridge Road, and Maple Ave 9p extending from NY-29 to just past Spring
               Run. Phase two would include adding sidewalks to Carr Road, Davidson Drive, and
               Northern Pines Road extending from Maple Ave 9p to Lonesome Pine Trail. The primary
-              focus first being safe neighborhood accessibility to{' '}
-              <b>Gavin Park, Dorothy Nolan Elementary School and Maple Avenue Middle School</b>. In
-              addition, we propose any new construction or building in the town of Wilton will be
-              required to incorporate sidewalks.
+              focus first being{' '}
+              <b>
+                safe neighborhood accessibility to Gavin Park, Dorothy Nolan Elementary School and
+                Maple Avenue Middle School
+              </b>
+              . In addition, we propose any new construction or building in the town of Wilton will
+              be required to incorporate sidewalks.
             </p>
 
             <iframe
@@ -104,7 +107,7 @@ export default function Home() {
         <div id="Why">
           <Jumbotron style={{ paddingTop: '0px' }}>
             <h1 className="sectionTitle">Why</h1>
-
+            <p></p>
             <p>
               {' '}
               Sidewalks play a vital role in community life. As a way for pedestrian movement and
@@ -113,53 +116,59 @@ export default function Home() {
               makes little sense that in this neighborhood, sidewalks do not exist.{' '}
             </p>
             <p>
-              We as a community would like to make Wilton more inclusive. Sidewalks enable people
-              from all socioeconomic status, and all types of disabilities an opportunity to safe
-              access to alternate transportation, including safe access to bus routes and safe
-              access to our local health care facilities. The ability to link Wilton sidewalks to
-              the 94 miles of Saratoga Springs City sidewalks provides safe access to a multitude of
-              opportunities for everyone including people who are disadvantaged.{' '}
+              We as a community would like to make Wilton more inclusive.{' '}
+              <b>
+                Sidewalks enable people from all socioeconomic status, and with all types of
+                disabilities an opportunity to safe access to alternate transportation
+              </b>
+              , including safe access to bus routes and safe access to our local health care
+              facilities.{' '}
+              <b>
+                The ability to link Wilton sidewalks to the 94 miles of Saratoga Springs City
+                sidewalks
+              </b>{' '}
+              provides safe access to a multitude of opportunities for everyone including people who
+              are disadvantaged.
             </p>
             <p>
               Covid 19 virus has taught us a lot. It made us all stop, think and see things in a new
-              light. We as a community want to refocus our energies on what matters most. The virus
-              has forced us to not only stay home more, but spend more time in our own community. We
-              have been given the opportunity to slow down. We are working from home, loving it and
-              not going back to the antiquated life style prepandemic. We go for more walks, ride
-              bikes, play more with our kids, take our kids to school instead of the bus, and
-              explore more than ever before, outside in our own back yards.{' '}
+              light. We as a community want to refocus our energies on what matters most. Recent
+              events have forced us to not only stay home more, but spend more time in our own
+              community. We have been given the opportunity to slow down. We are working from home,
+              loving it and not going back to the antiquated life style prepandemic. We go for more
+              walks, ride bikes, play more with our kids, take our kids to school instead of the
+              bus, and explore more than ever before, outside in our own back yards.
             </p>
             <p>
               In doing this, talk became strong and loud in this community, why can't we walk our
               kids safely to Gavin Park? Why can't we walk our kids safely to their school (Dorothy
               Nolan, Maple Ave)? Why can't we walk safely to the post office, the bank, or the local
-              coffee shop? Where do the citizens of Wilton get there sense of community? WHERE ARE
-              THE SIDEWALKS OTHER TOWNS HAVE? Wilton can do and be better!
+              coffee shop? Where do the citizens of Wilton get their sense of community?{' '}
+              <b>WHERE ARE THE SIDEWALKS OTHER TOWNS HAVE?</b> Wilton can do and be better!
             </p>
             <p>
               The children of Wilton are home now more than ever before. We hear parents and experts
               saying they need to get of their electronics, get outside, play, walk to your friends
-              house, walk to the park. Unfortunately, over and over the answer is Jones Road and
+              house, or go to the park. Unfortunately, over and over the answer is Jones Road and
               Maple Avenue are to dangerous to walk or ride on. Parents won't let their kids walk or
               ride on these roads, it's not safe. Adults don't feel safe to walk or ride on these
               roads let alone their children. The cars are to fast and to frequent. We can't walk
               our kids safely to the park. We can't walk them safely to their schools. In 2018 there
               were 6,283 pedestrians killed in traffic crashes in the United States. On average, a
-              pedestrian was killed every 84 minutes in a traffic crash. That is more than 17 people
-              a day, almost 121 people a week. Pedestrians killed while "walking along the
-              roadway" Many of these tragedies are preventable. Providing walkways separated from
+              pedestrian was <b>killed every 84 minutes</b> in a traffic crash. That is more than 17
+              people a day, almost 121 people a week. Pedestrians killed while "walking along the
+              roadway" Many of these tragedies are preventable. Providing walkways separated from
               the travel lanes could help to prevent up to 88 percent of these "walking along
-              roadway crashes." Why are there no sidewalks in Wilton? It's time for a change.
+              roadway crashes. <b>Why are there no sidewalks in Wilton? It's time for a change.</b>
             </p>
             <p>
-              {' '}
               Everywhere towns across America are recognizing the importance of a walkable
-              community, for safety, for better health, physically and mentally.
-              The U.S. adult obesity rate stands at 42.4 percent, the first time the national rate
-              has passed the 40 percent mark, and further evidence of the country's obesity crisis.
-              The national adult obesity rate has increased by 26 percent since 2008. Statistics
-              show that People who live in neighborhoods with sidewalks are 47 percent more likely
-              to be active at least 39 minutes a day.
+              community, for safety, for better health physically and mentally. The U.S. adult
+              obesity rate stands at 42.4 percent, the first time the national rate has passed the
+              40 percent mark, and further evidence of the country's obesity crisis. The national
+              adult obesity rate has increased by 26 percent since 2008. Statistics show that People
+              who live in neighborhoods with sidewalks are 47 percent more likely to be active at
+              least 39 minutes a day.
             </p>
             <p>
               We need to come together as a community in order to improve our lives. Sidewalks
@@ -167,6 +176,11 @@ export default function Home() {
               neighbors. They give safe access to alternate transportation, increase property
               values, beautify the neighborhood, promote business, improve health, bring people
               together and help to create a sense of community.
+            </p>
+
+            <p>
+              We ask you to please <a href="http://chng.it/YsfHcWjYvH">sign the petition</a> Walk
+              Wilton today for a better tomorrow. We owe it to our children, and future generations.
             </p>
           </Jumbotron>
         </div>
