@@ -96,9 +96,16 @@ export default function Home() {
               . In addition, we propose any new construction or building in the town of Wilton will
               be required to incorporate sidewalks.
             </p>
-
+            <h3>Phase 1</h3>
             <iframe
               src="https://www.google.com/maps/d/u/0/embed?mid=1JIv7N3rvXfnmmpoHoP9Zux91eOs"
+              width="100%"
+              height="480"
+            ></iframe>
+
+            <h3>Phase 2</h3>
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=1rdo7HFN-c2eIjHF-hmUCeP6GpPOr-RZ4"
               width="100%"
               height="480"
             ></iframe>
