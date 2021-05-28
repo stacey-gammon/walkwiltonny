@@ -88,10 +88,10 @@ export default function Home() {
             <p>
               The residents of Wilton are proposing to have sidewalks installed on the following
               streets: Phase one sidewalks would include Gick/Jones Road, extending from NY-29 to
-              Route 50, Smith Bridge Road, and Maple Ave 9p extending from NY-29 to just past Spring
-              Run. Phase two would include adding sidewalks to Carr Road, Davidson Drive, and
-              Northern Pines Road extending from Maple Ave 9p to Lonesome Pine Trail. The primary
-              focus first being{' '}
+              Route 50 and Maple Ave (NYS Route 9) extending from NY-29 to just past Spring Run.
+              Phase two would include adding sidewalks to Carr Road, Davidson Drive, and Northern
+              Pines Road extending from Maple Ave to Lonesome Pine Trail. The primary focus first
+              being{' '}
               <b>
                 safe neighborhood accessibility to Gavin Park, Dorothy Nolan Elementary School and
                 Maple Avenue Middle School
