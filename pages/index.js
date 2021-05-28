@@ -51,7 +51,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">Walk Wilton NY</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src="walkwiltonlogo.png" height="40" className="d-inline-block align-top" />
+            Walk Wilton NY
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
