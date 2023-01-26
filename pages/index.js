@@ -15,14 +15,14 @@ export default function Home() {
           </p>
           <h3>
             <i>
-              This is a proposal to create sidewalks in Wilton, New York,{' '}
+              This is a proposal to create multi-use paths in Wilton, New York,{' '}
               <b>without raising our taxes!</b>
             </i>
           </h3>
           <p style={{ backgroundColor: '#687980', padding: '10px' }}>
             {' '}
-            Sidewalks play a vital role in community life. As a way for pedestrian movement and
-            access, they enhance connectivity and promote walking. As public spaces, sidewalks are
+            Multi-use paths play a vital role in community life. As a way for pedestrian movement and
+            access, they enhance connectivity and promote walking. As public spaces, multi-use paths are
             the front steps to a community, activating streets both socially and economically.
           </p>
           <Button
@@ -86,10 +86,11 @@ export default function Home() {
           <Jumbotron>
             <h1 className="sectionTitle">Where</h1>
             <p>
-              The residents of Wilton are proposing to have sidewalks installed on the following
-              streets: Phase one sidewalks would include Gick/Jones Road, extending from NY-29 to
+              The residents of Wilton are proposing to have 
+             s installed on the following
+              streets: Phase one multi-use paths would include Gick/Jones Road, extending from NY-29 to
               Route 50 and Maple Ave (NYS Route 9) extending from NY-29 to just past Spring Run.
-              Phase two would include adding sidewalks to Carr Road, Davidson Drive, and Northern
+              Phase two would include adding multi-use paths to Carr Road, Davidson Drive, and Northern
               Pines Road extending from Maple Ave to Lonesome Pine Trail. The primary focus first
               being{' '}
               <b>
@@ -97,7 +98,7 @@ export default function Home() {
                 Maple Avenue Middle School
               </b>
               . In addition, we propose any new construction or building in the town of Wilton will
-              be required to incorporate sidewalks.
+              be required to incorporate multi-use paths.
             </p>
             <h3>Phase 1</h3>
             <iframe
@@ -120,22 +121,22 @@ export default function Home() {
             <p></p>
             <p>
               {' '}
-              Sidewalks play a vital role in community life. As a way for pedestrian movement and
-              access, they enhance connectivity and promote walking. As public spaces, sidewalks are
+              Multi-use paths play a vital role in community life. As a way for pedestrian movement and
+              access, they enhance connectivity and promote walking. As public spaces, multi-use paths are
               the front steps to a community, activating streets both socially and economically. It
-              makes little sense that in this neighborhood, sidewalks do not exist.{' '}
+              makes little sense that in this neighborhood, multi-use paths do not exist.{' '}
             </p>
             <p>
               We as a community would like to make Wilton more inclusive.{' '}
               <b>
-                Sidewalks enable people from all socioeconomic status, and with all types of
+                Multi-use paths enable people from all socioeconomic status, and with all types of
                 disabilities an opportunity to safe access to alternate transportation
               </b>
               , including safe access to bus routes and safe access to our local health care
               facilities.{' '}
               <b>
-                The ability to link Wilton sidewalks to the 94 miles of Saratoga Springs City
-                sidewalks
+                The ability to link Wilton multi-use paths to the 94 miles of Saratoga Springs City
+                multi-use paths
               </b>{' '}
               provides safe access to a multitude of opportunities for everyone including people who
               are disadvantaged.
@@ -154,7 +155,7 @@ export default function Home() {
               kids safely to Gavin Park? Why can't we walk our kids safely to their school (Dorothy
               Nolan, Maple Ave)? Why can't we walk safely to the post office, the bank, or the local
               coffee shop? Where do the citizens of Wilton get their sense of community?{' '}
-              <b>WHERE ARE THE SIDEWALKS OTHER TOWNS HAVE?</b> Wilton can do and be better!
+              <b>WHERE ARE THE MULT-USE PATHS OTHER TOWNS HAVE?</b> Wilton can do and be better!
             </p>
             <p>
               The children of Wilton are home now more than ever before. We hear parents and experts
@@ -169,7 +170,7 @@ export default function Home() {
               people a day, almost 121 people a week. Pedestrians killed while "walking along the
               roadway" Many of these tragedies are preventable. Providing walkways separated from
               the travel lanes could help to prevent up to 88 percent of these "walking along
-              roadway crashes. <b>Why are there no sidewalks in Wilton? It's time for a change.</b>
+              roadway crashes. <b>Why are there no multi-use paths in Wilton? It's time for a change.</b>
             </p>
             <p>
               Everywhere towns across America are recognizing the importance of a walkable
@@ -177,11 +178,11 @@ export default function Home() {
               obesity rate stands at 42.4 percent, the first time the national rate has passed the
               40 percent mark, and further evidence of the country's obesity crisis. The national
               adult obesity rate has increased by 26 percent since 2008. Statistics show that People
-              who live in neighborhoods with sidewalks are 47 percent more likely to be active at
+              who live in neighborhoods with multi-use paths are 47 percent more likely to be active at
               least 39 minutes a day.
             </p>
             <p>
-              We need to come together as a community in order to improve our lives. Sidewalks
+              We need to come together as a community in order to improve our lives. Multi-use paths
               improve safety, equity and inclusivity, communication, and understanding of our
               neighbors. They give safe access to alternate transportation, increase property
               values, beautify the neighborhood, promote business, improve health, bring people
@@ -264,20 +265,20 @@ export default function Home() {
                 style={{ backgroundColor: '#687980', color: 'white' }}
               >
                 <div className="InfoSectionCalloutText">
-                  <h3>94 miles of sidewalks</h3>
+                  <h3>94 miles of multi-use paths</h3>
                 </div>
               </Col>
               <Col className="InfoSectionCallout">
                 <div className="InfoSectionDetailText">
                   <p>
                     Saratoga Springs has one of America’s best Downtowns,{' '}
-                    <b>94 miles of sidewalks</b> that we can connect to. Saratoga has been
+                    <b>94 miles of multi-use paths</b> that we can connect to. Saratoga has been
                     designated a Bronze-Level Walk Friendly Community. Saratoga Springs is planning
-                    to enhance it's sidewalks with the{' '}
+                    to enhance it's multi-use paths with the{' '}
                     <a href="https://www.saratoga-springs.org/2425/Saratoga-Greenbelt-Trail">
                       Saratoga Greenbelt Trail
                     </a>
-                    . Sidewalks in Wilton connecting to this trail system would exponentially
+                    . Multi-use paths in Wilton connecting to this trail system would exponentially
                     increase the walkability of our town.
                   </p>
                   <p>
@@ -300,14 +301,14 @@ export default function Home() {
               <Col className="InfoSectionCallout">
                 <div className="InfoSectionDetailText">
                   <p>
-                    Sidewalks increase foot traffic in retail centers, delivering the customers that
+                    Multi-use paths increase foot traffic in retail centers, delivering the customers that
                     local shops and restaurants need in order to thrive. <br />
                     <br />
                     <i>
                       Battle Lake, Minnesota (pop. 735) downsized a highway running through town.
                       Highway 78 — the town's Main Street — local citizens persuaded the agency to
                       do a road diet, narrowing the roadway from four lanes to three, and widening
-                      the sidewalk through downtown. <b>Twenty-one new businesses opened in town</b>
+                      the multi-use path through downtown. <b>Twenty-one new businesses opened in town</b>
                       , including a hotel and bakery, since the project was completed in 2014,
                       reports MnDOT.
                     </i>
@@ -323,7 +324,7 @@ export default function Home() {
             <h1 className="sectionTitle">Myths</h1>
 
             <div className="mythBox">
-              <h3>🚷 “No one will use the sidewalk.”</h3>
+              <h3>🚷 “No one will use the multi-use path.”</h3>
               <p>
                 This might have been true in the past, but research published in 2012 by the U.S.
                 Centers for Disease Control and Prevention7 (CDC) and in 2013 by the National Center
@@ -337,7 +338,7 @@ export default function Home() {
             <div className="mythBox">
               <h3>🚙 “Americans prefer to drive.”</h3>
               <p>
-                Perhaps, or maybe they’re driving so much because there are no sidewalks! Federal
+                Perhaps, or maybe they’re driving so much because there are no multi-use paths! Federal
                 data on vehicle miles traveled and a recent national study show a decline in driving
                 and car ownership during the 2000s in an overwhelming majority of metro areas. At
                 the same time, the number of people commuting by bicycle and transit increased.9 A
@@ -350,29 +351,29 @@ export default function Home() {
               <h3>🌳 “Trees will be destroyed.”</h3>
               <p>
                 {' '}
-                Not necessarily. Sidewalks can be curved to avoid trees. In fact, protecting a tree
-                is one of the few reasons for a sidewalk to deviate from a direct route.
+                Not necessarily. Multi-use paths can be curved to avoid trees. In fact, protecting a tree
+                is one of the few reasons for a multi-use paths to deviate from a direct route.
               </p>
             </div>
             <div className="mythBox">
-              <h3>🏠 "A sidewalk will take land from my lawn"</h3>
+              <h3>🏠 "A multi-use path will take land from my lawn"</h3>
               <p>
                 Many homeowners don’t realize how far from the curb their private property line
                 actually extends. There’s often enough of a public right-of-way easement in place to
-                create a sidewalk without infringing in any way on a property owner’s land
+                create a multi-use path without infringing in any way on a property owner’s land
               </p>
             </div>
             <div className="mythBox">
               <h3>🚶 “People will walk too close to my house.”</h3>
 
               <p>
-                There’s little difference between what passersby can see from a sidewalk versus what
+                There’s little difference between what passersby can see from a multi-use path versus what
                 they can already see from their cars or by walking along the edge of the street. Any
-                nearness added by a sidewalk would likely be as little as a just a few feet.
+                nearness added by a multi-use path would likely be as little as a just a few feet.
               </p>
             </div>
             <div className="mythBox">
-              <h3>🔐 "Sidewalks increase crime."</h3>
+              <h3>🔐 "Multi-use paths increase crime."</h3>
               <p>
                 {' '}
                 Actually, increased pedestrian activity puts more eyes on the street and creates
@@ -382,9 +383,9 @@ export default function Home() {
             </div>
             <div className="mythBox">
               <p>
-                Since sidewalks increase property values and tax revenues, they serve as an economic
-                engine. Plus, sidewalk maintenance costs are real estate tax-deductible (IRS
-                Publication 530). Sidewalks are also safety investments (by bringing more eyes and
+                Since multi-use paths increase property values and tax revenues, they serve as an economic
+                engine. Plus, multi-use paths maintenance costs are real estate tax-deductible (IRS
+                Publication 530). multi-use paths are also safety investments (by bringing more eyes and
                 ears to the street) and an integral part of a balanced transportation budget
               </p>
             </div>
