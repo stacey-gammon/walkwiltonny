@@ -15,15 +15,15 @@ export default function Home() {
           </p>
           <h3>
             <i>
-              This is a proposal to create multi-use paths in Wilton, New York,{' '}
-              <b>without raising our taxes!</b>
+              A proposal to create multi-use paths in Wilton, New York
             </i>
           </h3>
           <p style={{ backgroundColor: '#687980', padding: '10px' }}>
             {' '}
-            Multi-use paths play a vital role in community life. As a way for pedestrian movement and
-            access, they enhance connectivity and promote walking. As public spaces, multi-use paths are
-            the front steps to a community, activating streets both socially and economically.
+            We believe that every resident of Wilton should have access to safe and convenient pedestrian pathways.
+             That's why we're proposing to create multi-use paths on various streets in Wilton, New York, without raising our taxes..
+            
+             Multi-use paths play a vital role in enhancing community connectivity, promoting healthy living, and activating streets both socially and economically.
           </p>
           <Button
             variant="warning"
@@ -37,6 +37,10 @@ export default function Home() {
           >
             Sign the petition
           </Button>
+
+          <p style={{ padding: '10px' }}>
+            Join our <a href="https://www.facebook.com/groups/1112601030137379">facebook group</a> to get involved!
+          </p>
         </div>
       </div>
     );
@@ -86,19 +90,7 @@ export default function Home() {
           <Jumbotron>
             <h1 className="sectionTitle">Where</h1>
             <p>
-              The residents of Wilton are proposing to have 
-             s installed on the following
-              streets: Phase one multi-use paths would include Gick/Jones Road, extending from NY-29 to
-              Route 50 and Maple Ave (NYS Route 9) extending from NY-29 to just past Spring Run.
-              Phase two would include adding multi-use paths to Carr Road, Davidson Drive, and Northern
-              Pines Road extending from Maple Ave to Lonesome Pine Trail. The primary focus first
-              being{' '}
-              <b>
-                safe neighborhood accessibility to Gavin Park, Dorothy Nolan Elementary School and
-                Maple Avenue Middle School
-              </b>
-              . In addition, we propose any new construction or building in the town of Wilton will
-              be required to incorporate multi-use paths.
+            In phase one of our proposal, we aim to install multi-use paths on Gick/Jones Road, extending from NY-29 to Route 50, and Maple Ave (NYS Route 9), extending from NY-29 to just past Spring Run. Phase two would include adding multi-use paths to Carr Road, Davidson Drive, and Northern Pines Road, extending from Maple Ave to Lonesome Pine Trail. Our primary focus is on providing safe neighborhood accessibility to Gavin Park, Dorothy Nolan Elementary School, and Maple Avenue Middle School.
             </p>
             <h3>Phase 1</h3>
             <iframe
