@@ -1,5 +1,7 @@
-import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/bootstrap.min.css'; // Added this :boom:
+
+
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 

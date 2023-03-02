@@ -1,29 +1,17 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Nav, Navbar, Row, Image, Container, Col, Jumbotron, Button } from 'react-bootstrap';
+import { Nav, Navbar, Row, Col, Jumbotron, Button } from 'react-bootstrap';
 import ContactForm from './components/contact_form';
-import Callout from './components/callout';
+
 
 export default function Home() {
   const CoverPhoto = () => {
     return (
       <div style={{ width: 'auto', textAlign: 'center', height: '100%' }}>
         <div className="photo-hover-text">
-          <h1 className="websiteTitle">Walk Wilton New York</h1>
+          <h1 className="websiteTitle">The Walk and Bike Wilton Project</h1>
           <p>
             <i>Connecting our community</i>
-          </p>
-          <h3>
-            <i>
-              A proposal to create multi-use paths in Wilton, New York
-            </i>
-          </h3>
-          <p style={{ backgroundColor: '#687980', padding: '10px' }}>
-            {' '}
-            We believe that every resident of Wilton should have access to safe and convenient pedestrian pathways.
-             That's why we're proposing to create multi-use paths on various streets in Wilton, New York, without raising our taxes..
-            
-             Multi-use paths play a vital role in enhancing community connectivity, promoting healthy living, and activating streets both socially and economically.
           </p>
           <Button
             variant="warning"
@@ -49,7 +37,7 @@ export default function Home() {
   return (
     <div className="mainBody">
       <Head>
-        <title>Walk Wilton NY</title>
+        <title>The Walk and Bike Wilton Project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -86,9 +74,23 @@ export default function Home() {
         <Jumbotron>
           <CoverPhoto />
         </Jumbotron>
+        <div id="What">
+          <Jumbotron>
+            <h2 className="sectionTitle">What</h2>
+            <p>
+            If you're a resident of Wilton, New York, you know how important it is to have safe and accessible pedestrian pathways throughout our community. Multi-use paths provide a great opportunity to improve connectivity, promote healthy living, and activate our streets both socially and economically.
+
+By signing our petition, you can help make this a reality without any additional burden on taxpayers. We're proposing to install multi-use paths on various streets in Wilton, including Gick/Jones Road, Maple Ave, Carr Road, Davidson Drive, and Northern Pines Road. These paths will provide safe and convenient access to Gavin Park, Dorothy Nolan Elementary School, and Maple Avenue Middle School, making it easier for residents of all ages to get around.
+
+Moreover, multi-use paths offer a range of benefits beyond just transportation. They promote healthy lifestyles by encouraging walking, running, and biking, and they create a sense of community by bringing people together in shared public spaces. Additionally, multi-use paths can be a catalyst for economic activity, attracting businesses and boosting property values in the surrounding area.
+
+We believe that investing in multi-use paths is a smart and worthwhile endeavor for our community. And with your help, we can make it happen without raising taxes. So if you're passionate about creating a more connected, healthy, and vibrant community in Wilton, please sign our petition and join us in this effort.
+              </p>
+          </Jumbotron>
+        </div>
         <div id="Where">
           <Jumbotron>
-            <h1 className="sectionTitle">Where</h1>
+            <h2 className="sectionTitle">Where</h2>
             <p>
             In phase one of our proposal, we aim to install multi-use paths on Gick/Jones Road, extending from NY-29 to Route 50, and Maple Ave (NYS Route 9), extending from NY-29 to just past Spring Run. Phase two would include adding multi-use paths to Carr Road, Davidson Drive, and Northern Pines Road, extending from Maple Ave to Lonesome Pine Trail. Our primary focus is on providing safe neighborhood accessibility to Gavin Park, Dorothy Nolan Elementary School, and Maple Avenue Middle School.
             </p>
@@ -105,86 +107,6 @@ export default function Home() {
               width="100%"
               height="480"
             ></iframe>
-          </Jumbotron>
-        </div>
-        <div id="Why">
-          <Jumbotron style={{ paddingTop: '0px' }}>
-            <h1 className="sectionTitle">Why</h1>
-            <p></p>
-            <p>
-              {' '}
-              Multi-use paths play a vital role in community life. As a way for pedestrian movement and
-              access, they enhance connectivity and promote walking. As public spaces, multi-use paths are
-              the front steps to a community, activating streets both socially and economically. It
-              makes little sense that in this neighborhood, multi-use paths do not exist.{' '}
-            </p>
-            <p>
-              We as a community would like to make Wilton more inclusive.{' '}
-              <b>
-                Multi-use paths enable people from all socioeconomic status, and with all types of
-                disabilities an opportunity to safe access to alternate transportation
-              </b>
-              , including safe access to bus routes and safe access to our local health care
-              facilities.{' '}
-              <b>
-                The ability to link Wilton multi-use paths to the 94 miles of Saratoga Springs City
-                multi-use paths
-              </b>{' '}
-              provides safe access to a multitude of opportunities for everyone including people who
-              are disadvantaged.
-            </p>
-            <p>
-              Covid 19 virus has taught us a lot. It made us all stop, think and see things in a new
-              light. We as a community want to refocus our energies on what matters most. Recent
-              events have forced us to not only stay home more, but spend more time in our own
-              community. We have been given the opportunity to slow down. We are working from home,
-              loving it and not going back to the antiquated life style prepandemic. We go for more
-              walks, ride bikes, play more with our kids, take our kids to school instead of the
-              bus, and explore more than ever before, outside in our own back yards.
-            </p>
-            <p>
-              In doing this, talk became strong and loud in this community, why can't we walk our
-              kids safely to Gavin Park? Why can't we walk our kids safely to their school (Dorothy
-              Nolan, Maple Ave)? Why can't we walk safely to the post office, the bank, or the local
-              coffee shop? Where do the citizens of Wilton get their sense of community?{' '}
-              <b>WHERE ARE THE MULT-USE PATHS OTHER TOWNS HAVE?</b> Wilton can do and be better!
-            </p>
-            <p>
-              The children of Wilton are home now more than ever before. We hear parents and experts
-              saying they need to get of their electronics, get outside, play, walk to your friends
-              house, or go to the park. Unfortunately, over and over the answer is Jones Road and
-              Maple Avenue are to dangerous to walk or ride on. Parents won't let their kids walk or
-              ride on these roads, it's not safe. Adults don't feel safe to walk or ride on these
-              roads let alone their children. The cars are to fast and to frequent. We can't walk
-              our kids safely to the park. We can't walk them safely to their schools. In 2018 there
-              were 6,283 pedestrians killed in traffic crashes in the United States. On average, a
-              pedestrian was <b>killed every 84 minutes</b> in a traffic crash. That is more than 17
-              people a day, almost 121 people a week. Pedestrians killed while "walking along the
-              roadway" Many of these tragedies are preventable. Providing walkways separated from
-              the travel lanes could help to prevent up to 88 percent of these "walking along
-              roadway crashes. <b>Why are there no multi-use paths in Wilton? It's time for a change.</b>
-            </p>
-            <p>
-              Everywhere towns across America are recognizing the importance of a walkable
-              community, for safety, for better health physically and mentally. The U.S. adult
-              obesity rate stands at 42.4 percent, the first time the national rate has passed the
-              40 percent mark, and further evidence of the country's obesity crisis. The national
-              adult obesity rate has increased by 26 percent since 2008. Statistics show that People
-              who live in neighborhoods with multi-use paths are 47 percent more likely to be active at
-              least 39 minutes a day.
-            </p>
-            <p>
-              We need to come together as a community in order to improve our lives. Multi-use paths
-              improve safety, equity and inclusivity, communication, and understanding of our
-              neighbors. They give safe access to alternate transportation, increase property
-              values, beautify the neighborhood, promote business, improve health, bring people
-              together and help to create a sense of community.
-            </p>
-
-            <p>
-              We ask you to please <a href="http://chng.it/YsfHcWjYvH">sign the petition</a> Walk
-              Wilton today for a better tomorrow. We owe it to our children, and future generations.
-            </p>
           </Jumbotron>
         </div>
         <div id="key">
