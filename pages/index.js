@@ -60,7 +60,7 @@ export default function Home() {
                 <Nav.Link href="#Why">Why</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#Why">Key points</Nav.Link>
+                <Nav.Link href="#key">Key points</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#Contact">Myths</Nav.Link>
@@ -113,16 +113,9 @@ We believe that investing in multi-use paths is a smart and worthwhile endeavor 
         </div>
         <div id="key">
           <Jumbotron style={{ paddingTop: '0px' }}>
-            <h1 className="sectionTitle">Key points</h1>
-
-            <Row className="InfoSectionRow">
-              <Col className="InfoSectionCallout" style={{ backgroundColor: '#f3bda1' }}>
-                <div className="InfoSectionCalloutText">
-                  <h3>54% increase in property value</h3>
-                </div>
-              </Col>
-              <Col className="InfoSectionCallout">
-                <div className="InfoSectionDetailText">
+            <h2 className="sectionTitle">Key Points</h2>
+                  <h4>54% increase in property value</h4>
+               
                   <p>
                     Retail properties with a Walk Score ranking of 80 out of 100 were{' '}
                     <b>valued 54 percent higher</b> than properties with a Walk Score of 20 and had
@@ -172,20 +165,9 @@ We believe that investing in multi-use paths is a smart and worthwhile endeavor 
                     Being able to answer yes to all these questions will increase all our property
                     values, <i>and</i> improve the accessibility of our area.
                   </p>
-                </div>
-              </Col>
-            </Row>
-            <Row className="InfoSectionRow">
-              <Col
-                className="InfoSectionCallout"
-                style={{ backgroundColor: '#687980', color: 'white' }}
-              >
-                <div className="InfoSectionCalloutText">
+            
                   <h3>94 miles of multi-use paths</h3>
-                </div>
-              </Col>
-              <Col className="InfoSectionCallout">
-                <div className="InfoSectionDetailText">
+                
                   <p>
                     Saratoga Springs has one of America’s best Downtowns,{' '}
                     <b>94 miles of multi-use paths</b> that we can connect to. Saratoga has been
@@ -205,18 +187,8 @@ We believe that investing in multi-use paths is a smart and worthwhile endeavor 
                     , while Saratoga Springs has a{' '}
                     <a href="https://www.walkscore.com/NY/Saratoga_Springs">walk score of 42.</a>
                   </p>
-                </div>
-              </Col>
-            </Row>
-            <Row className="InfoSectionRow">
-              <Col className="InfoSectionCallout" style={{ backgroundColor: '#fefecc' }}>
-                <div className="InfoSectionCalloutText">
-                  <h3>Local shops and restaurants</h3>
-                </div>
-              </Col>
-              <Col className="InfoSectionCallout">
-                <div className="InfoSectionDetailText">
-                  <p>
+                <h3>Local shops and restaurants</h3>
+                <p>
                     Multi-use paths increase foot traffic in retail centers, delivering the customers that
                     local shops and restaurants need in order to thrive. <br />
                     <br />
@@ -229,9 +201,6 @@ We believe that investing in multi-use paths is a smart and worthwhile endeavor 
                       reports MnDOT.
                     </i>
                   </p>
-                </div>
-              </Col>
-            </Row>
           </Jumbotron>
         </div>
 
