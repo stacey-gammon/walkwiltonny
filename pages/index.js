@@ -51,6 +51,9 @@ export default function Home() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <Nav.Item>
+                <Nav.Link href="#What">What</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link href="#Where">Where</Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -80,8 +83,7 @@ export default function Home() {
             <p>
             If you're a resident of Wilton, New York, you know how important it is to have safe and accessible pedestrian pathways throughout our community. Multi-use paths provide a great opportunity to improve connectivity, promote healthy living, and activate our streets both socially and economically.
 
-By signing our petition, you can help make this a reality without any additional burden on taxpayers. We're proposing to install multi-use paths on various streets in Wilton, including Gick/Jones Road, Maple Ave, Carr Road, Davidson Drive, and Northern Pines Road. These paths will provide safe and convenient access to Gavin Park, Dorothy Nolan Elementary School, and Maple Avenue Middle School, making it easier for residents of all ages to get around.
-
+By signing our petition, you can help make this a reality without any additional burden on taxpayers.
 Moreover, multi-use paths offer a range of benefits beyond just transportation. They promote healthy lifestyles by encouraging walking, running, and biking, and they create a sense of community by bringing people together in shared public spaces. Additionally, multi-use paths can be a catalyst for economic activity, attracting businesses and boosting property values in the surrounding area.
 
 We believe that investing in multi-use paths is a smart and worthwhile endeavor for our community. And with your help, we can make it happen without raising taxes. So if you're passionate about creating a more connected, healthy, and vibrant community in Wilton, please sign our petition and join us in this effort.
