@@ -81,12 +81,17 @@ export default function Home() {
           <Jumbotron>
             <h2 className="sectionTitle">What</h2>
             <p>
-            If you're a resident of Wilton, New York, you know how important it is to have safe and accessible pedestrian pathways throughout our community. Multi-use paths provide a great opportunity to improve connectivity, promote healthy living, and activate our streets both socially and economically.
+            If you're a resident of Wilton, New York, you know how important it is to have safe and 
+            accessible pedestrian pathways throughout our community. Multi-use paths provide a great opportunity 
+            to improve connectivity, promote healthy living, and activate our streets both socially and economically.
 
-By signing our petition, you can help make this a reality without any additional burden on taxpayers.
+By signing our petition, you can help make this a reality <b>without any additional burden on taxpayers</b> by leveraging the town's available budget surplus.
 Moreover, multi-use paths offer a range of benefits beyond just transportation. They promote healthy lifestyles by encouraging walking, running, and biking, and they create a sense of community by bringing people together in shared public spaces. Additionally, multi-use paths can be a catalyst for economic activity, attracting businesses and boosting property values in the surrounding area.
 
-We believe that investing in multi-use paths is a smart and worthwhile endeavor for our community. And with your help, we can make it happen without raising taxes. So if you're passionate about creating a more connected, healthy, and vibrant community in Wilton, please sign our petition and join us in this effort.
+We believe that investing in multi-use paths is a smart and worthwhile endeavor for our community.
+ And with your help, we can make it happen.
+  So if you're passionate about creating a more connected, healthy, and vibrant community in Wilton, 
+  please sign our petition and join us in this effort.
               </p>
           </Jumbotron>
         </div>
