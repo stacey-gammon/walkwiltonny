@@ -36,64 +36,58 @@ const ContactForm = () => {
   };
 
   return (
-    //     <form name="contact" method="POST" data-netlify="true" action="/success">
-    //       <input type="hidden" name="form-name" value="contact" />
-    //       <p>
-    //         <input type="text" name="firstname" id="firstname" />
-    //         <label htmlFor="yourname">Your Name:</label> <br />
-    //         <input type="text" name="name" id="yourname" />
-    //       </p>
-    //       <p>
-    //         <label htmlFor="youremail">Your Email:</label> <br />
-    //         <input type="email" name="email" id="youremail" />
-    //       </p>
-    //       <p>
-    //         <label htmlFor="yourmessage">Message:</label> <br />
-    //         <textarea name="message" id="yourmessage"></textarea>
-    //       </p>
-    //       <p>
-    //         <button type="submit">Send</button>
-    //       </p>
-    //     </form>
-    //   );
-    <Form action="/success" name="contact" method="POST" data-netlify="true">
+    <Form action="/success" name="contact" method="POST" data-netlify="true" className="contact-form">
       {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
-      {error ? <Alert variant="error">{error}</Alert> : null}
-      <Form.Group controlId="formBasicEmail">
-        <Form.Label>Name</Form.Label>
+      {error ? <Alert variant="danger">{error}</Alert> : null}
+      
+      <Form.Group className="mb-3">
+        <Form.Label className="form-label">Name</Form.Label>
         <Form.Control
-          type="name"
+          type="text"
           name="name"
-          placeholder="Enter name"
+          placeholder="Enter your full name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          className="form-control"
+          required
         />
       </Form.Group>
-      <Form.Group controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
+      
+      <Form.Group className="mb-3">
+        <Form.Label className="form-label">Email address</Form.Label>
         <Form.Control
           type="email"
           name="email"
-          placeholder="Enter email"
+          placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          className="form-control"
+          required
         />
         <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
       </Form.Group>
-      <Form.Group controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Message</Form.Label>
+      
+      <Form.Group className="mb-4">
+        <Form.Label className="form-label">Message</Form.Label>
         <Form.Control
           as="textarea"
-          rows={3}
+          rows={4}
           value={message}
           name="message"
+          placeholder="Tell us how you'd like to get involved or ask any questions..."
           onChange={(e) => setMessage(e.target.value)}
+          className="form-control"
+          required
         />
       </Form.Group>
+      
       <input type="hidden" name="form-name" value="contact" />
-      <Button variant="primary" type="submit">
-        Send
-      </Button>
+      
+      <div className="text-center">
+        <Button variant="primary" type="submit" size="lg" className="btn-primary">
+          <i className="fas fa-paper-plane me-2"></i>Send Message
+        </Button>
+      </div>
     </Form>
   );
 };
