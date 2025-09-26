@@ -3,17 +3,21 @@ import '../styles/globals.css';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-import { pageview } from './api/ga';
-
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      pageview(url);
+      // Track page views with Google Analytics if available
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('config', 'GA_MEASUREMENT_ID', {
+          page_path: url,
+        });
+      }
     };
-    //When the component is mounted, subscribe to router changes
-    //and log those page views
+    
+    // When the component is mounted, subscribe to router changes
+    // and log those page views
     router.events.on('routeChangeComplete', handleRouteChange);
 
     // If the component is unmounted, unsubscribe

@@ -15,6 +15,16 @@ const ContactForm = () => {
   const [showSuccess, setShowSuccess] = useState(false);
 
   const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    // Track form submission
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'contact_form_submit', {
+        event_category: 'engagement',
+        event_label: 'contact_form'
+      });
+    }
+    
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -27,16 +37,26 @@ const ContactForm = () => {
         setName('');
         setEmail('');
         setError('');
+        
+        // Track successful form submission
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'contact_form_success', {
+            event_category: 'engagement',
+            event_label: 'contact_form'
+          });
+        }
       } else {
         setError(response.body.error);
         setShowSuccess(false);
       }
+    }).catch((error) => {
+      setError('There was an error submitting the form. Please try again.');
+      setShowSuccess(false);
     });
-    e.preventDefault();
   };
 
   return (
-    <Form action="/success" name="contact" method="POST" data-netlify="true" className="contact-form">
+    <Form action="/success" name="contact" method="POST" data-netlify="true" className="contact-form" onSubmit={handleSubmit}>
       {showSuccess ? <Alert variant="success">Successfully submitted form.</Alert> : null}
       {error ? <Alert variant="danger">{error}</Alert> : null}
       

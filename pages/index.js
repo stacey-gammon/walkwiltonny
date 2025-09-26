@@ -19,6 +19,14 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="btn-primary"
                 size="lg"
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.gtag) {
+                    window.gtag('event', 'sign_petition', {
+                      event_category: 'engagement',
+                      event_label: 'hero_section'
+                    });
+                  }
+                }}
               >
                 Sign the Petition
               </Button>
@@ -340,6 +348,14 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="btn-primary"
                       size="lg"
+                      onClick={() => {
+                        if (typeof window !== 'undefined' && window.gtag) {
+                          window.gtag('event', 'sign_petition', {
+                            event_category: 'engagement',
+                            event_label: 'petition_section'
+                          });
+                        }
+                      }}
                     >
                       <i className="fas fa-pen me-2"></i>Sign the Petition
                     </Button>
